@@ -19,7 +19,7 @@ void CountingFrequency(int a[],int n){
             count++;
            }
         }
-        cout << a[i] << count;;
+        cout << a[i] << count;
     }
 }
 int main(){
