@@ -10,7 +10,7 @@ int main() {
     {
         cin >> a[i];
     }
-    
+
     int ans[n];
     int count = 0;
     int max = n - 1;
