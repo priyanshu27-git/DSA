@@ -30,12 +30,12 @@ int main() {
     }
     
     reverse(ans , ans + count);
-    
+
     for (int i = 0; i < count; i++)
     {
         cout << ans[i] << " " ;
     }
     
-    
+
     return 0;
 }
