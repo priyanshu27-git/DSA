@@ -10,6 +10,7 @@ int main() {
     {
         cin >> a[i];
     }
+
     int ans[n];
     int count = 0;
     int max = n - 1;
@@ -29,6 +30,7 @@ int main() {
     }
     
     reverse(ans , ans + count);
+    
     for (int i = 0; i < count; i++)
     {
         cout << ans[i] << " " ;
