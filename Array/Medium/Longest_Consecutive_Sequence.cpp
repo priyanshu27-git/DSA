@@ -15,7 +15,7 @@ int main()
     sort(a, a + n);
     int count = 1;
     int match = 0, Longest = 1;
-    
+
     if (n == 0)
     {
         cout << 0;
@@ -33,6 +33,7 @@ int main()
                 Longest = count;
             }
         }
+        
         else if (a[i] > a[match] + 1)
         {
             match = i;
