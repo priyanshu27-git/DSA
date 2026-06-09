@@ -24,7 +24,7 @@ int main()
 
     for (int i = 1; i < n; i++)
     {
-        if (a[i] - 1 == a[match])
+        if (a[i] - 1 == a[match])// checking number from its exact smaller than current 
         {
             count++;
             match = i;
@@ -44,5 +44,4 @@ int main()
     cout << Longest;
 
     return 0;
-    
 }
