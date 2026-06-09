@@ -33,7 +33,7 @@ int main()
                 Longest = count;
             }
         }
-        
+
         else if (a[i] > a[match] + 1)
         {
             match = i;
@@ -44,4 +44,5 @@ int main()
     cout << Longest;
 
     return 0;
+    
 }
