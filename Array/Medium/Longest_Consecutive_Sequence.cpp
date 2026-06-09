@@ -15,6 +15,7 @@ int main()
     sort(a, a + n);
     int count = 1;
     int match = 0, Longest = 1;
+    
     if (n == 0)
     {
         cout << 0;
