@@ -24,7 +24,7 @@ int main() {
         }
         if(windowSum <= k){
             curr++;
-            if( windowSum == k && Max < curr){
+            if(windowSum == k && Max < curr){
                 Max = curr;
             }
         }
