@@ -48,7 +48,7 @@ int main() {
             ans[k++] = a[i][startcol];
         }
         startcol++;
-        }
+        } 
     }
 
     for (int i = 0; i < k; i++)
