@@ -23,7 +23,7 @@ int main() {
     ans[count++] = a[max];
     for (int i = n - 2; i >= 0; i--)
     {
-        if(a[i] > a[max]){
+        if(a[i] >= a[max]){
             max = i;
             ans[count++] = a[i];
         }
