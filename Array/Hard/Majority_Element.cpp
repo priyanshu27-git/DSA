@@ -9,7 +9,7 @@ int main() {
     {
         cin >> a[i];
     }
-
+    
     int cnt1 = 0, cnt2 = 0;
 
     int el1 = INT32_MIN, el2 = INT32_MIN;
