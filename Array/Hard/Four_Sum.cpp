@@ -11,6 +11,7 @@ int main() {
     {
         cin >> a[i];
     }
+    
     int k;
     cin >> k;
 
