@@ -40,6 +40,5 @@ int main() {
     {
         cout << a1[i] << " ";
     }
-    
     return 0;
 }
