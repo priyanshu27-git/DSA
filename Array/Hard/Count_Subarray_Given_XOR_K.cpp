@@ -15,7 +15,7 @@ int main() {
     int k;
     cin >> k;  
 
-    int XR = 0, X = 0;
+    int XR = 0, X = 0; 
     int count = 0;
 
     unordered_map<int,int> map;
