@@ -19,6 +19,7 @@ int main() {
     for (int i = 0; i < n; i++)
     {
         S += a[i];
+        
         S2 += (long)a[i] * (long)a[i];
     }
 
@@ -33,6 +34,6 @@ int main() {
     int y = x - val1;
     
     cout << x << " " << y;
-    
+
     return 0;
 }
