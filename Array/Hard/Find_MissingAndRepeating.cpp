@@ -33,5 +33,6 @@ int main() {
     int y = x - val1;
     
     cout << x << " " << y;
+    
     return 0;
 }
