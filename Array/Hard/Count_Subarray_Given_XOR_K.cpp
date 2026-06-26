@@ -13,7 +13,7 @@ int main() {
     }
  
     int k;
-    cin >> k;
+    cin >> k;  
 
     int XR = 0, X = 0;
     int count = 0;
