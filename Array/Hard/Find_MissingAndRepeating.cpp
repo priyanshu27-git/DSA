@@ -14,7 +14,7 @@ int main() {
 
     long long S2n = (n *(n + 1) * (2 * (n + 1)) / 6);
 
-    long long S = 0 , S2 = 0;
+    long long S = 0 , S2 = 0; 
 
     for (int i = 0; i < n; i++)
     {
