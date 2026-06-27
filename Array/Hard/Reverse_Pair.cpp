@@ -39,10 +39,11 @@ void Merge(vector<int> &a, int low , int mid , int high){
 }
 
 int countPairs(vector<int> &a, int low , int mid , int high){
-    
+
     int right = mid + 1;
 
     int count = 0; 
+    
     for (int i = low ; i <= mid; i++)
     { 
         while (right <= high && a[i] > a[right] * 2)
