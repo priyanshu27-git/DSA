@@ -43,7 +43,7 @@ int countPairs(vector<int> &a, int low , int mid , int high){
 
     int count = 0; 
     for (int i = low ; i <= mid; i++)
-    {
+    { 
         while (right <= high && a[i] > a[right] * 2)
         {
             right++;
