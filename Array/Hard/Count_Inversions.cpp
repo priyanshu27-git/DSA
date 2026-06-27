@@ -22,6 +22,7 @@ int Merge(vector<int> &a, int low , int mid , int high){
             right++;
         }
     }
+    
      while (left <= mid) {
         temp.push_back(a[left]);
         left++;
