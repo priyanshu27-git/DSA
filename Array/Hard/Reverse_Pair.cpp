@@ -37,7 +37,9 @@ void Merge(vector<int> &a, int low , int mid , int high){
         a[i] = temp[i - low];
     }
 }
+
 int countPairs(vector<int> &a, int low , int mid , int high){
+    
     int right = mid + 1;
 
     int count = 0; 
