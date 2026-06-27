@@ -22,7 +22,7 @@ int Merge(vector<int> &a, int low , int mid , int high){
             right++;
         }
     }
-    
+
      while (left <= mid) {
         temp.push_back(a[left]);
         left++;
@@ -71,6 +71,5 @@ int main(){
     int count = MergeSort(a , low , high);
 
     cout << count;
-
     return 0;
 }
