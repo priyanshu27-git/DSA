@@ -10,7 +10,7 @@ int Merge(vector<int> &a, int low , int mid , int high){
     int right = mid+1;
     
     int count = 0;
-    while (left <= mid && right <= high)
+    while (left <= mid && right <= high) 
     {
         if(a[left] <= a[right]){
             temp.push_back(a[left]);
