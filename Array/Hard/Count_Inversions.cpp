@@ -14,7 +14,7 @@ int Merge(vector<int> &a, int low , int mid , int high){
     {
         if(a[left] <= a[right]){
             temp.push_back(a[left]);
-            left++;
+            left++; 
         }
         else{
             temp.push_back(a[right]);
