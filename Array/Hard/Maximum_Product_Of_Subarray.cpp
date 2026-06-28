@@ -10,7 +10,7 @@ int main() {
         cin >> a[i];
     }
     
-    int start = 1;
+    int start = 1; 
     int end = 1;
 
     int Maximum = a[0];
@@ -29,6 +29,6 @@ int main() {
     }
     
     cout << Maximum;
-    
+
     return 0;
 }
