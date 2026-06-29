@@ -14,7 +14,7 @@ int Min(int a[], int low, int high){
         else{
             high = mid;
         }
-    }
+    }  
     return a[low];
 }    
 
