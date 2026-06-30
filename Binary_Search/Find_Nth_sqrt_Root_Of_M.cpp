@@ -36,7 +36,7 @@ int main() {
         else if(ProductOfMid > m){
             right = mid - 1;
         }
-        else{
+        else{ 
             left = mid + 1;
         }
     }
