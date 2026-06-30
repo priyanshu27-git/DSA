@@ -15,7 +15,7 @@ int main() {
         cout << m; return 0;
     }
 
-    int left = 1 , right = m;
+    int left = 1 , right = m; 
     while (left <= right)
     {
         int temp = n;
