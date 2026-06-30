@@ -16,6 +16,7 @@ int main() {
     }
 
     int left = 1 , right = m; 
+    
     while (left <= right)
     {
         int temp = n;
