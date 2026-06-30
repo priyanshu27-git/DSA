@@ -16,7 +16,7 @@ int main()
     {
         cout << a[0];
         return a[0];
-    }
+    }  
 
     if (a[0] != a[1])
     {
