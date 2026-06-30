@@ -6,7 +6,6 @@ int main()
     int n;
     cin >> n;
     int a[n];
-
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
@@ -50,5 +49,6 @@ int main()
             high = mid - 1;
         }
     }
+    
     return 0;
 }
