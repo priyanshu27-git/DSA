@@ -27,6 +27,6 @@ int main()
         }
         cout << mid << endl;
     }
-    cout << ans;
+    
     return 0;
 }
