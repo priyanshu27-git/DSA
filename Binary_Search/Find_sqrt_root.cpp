@@ -12,20 +12,21 @@ int main()
         return 0;
     }
 
-    int low = 1, high = n / 2 , ans = 0;
+    int low = 1, high = n / 2, ans = 0;
 
     while (low <= high)
     {
         int mid = low + (high - low) / 2;
 
-        if (mid * mid <= n){
+        if (mid * mid <= n)
+        {
             ans = mid;
             low = mid + 1;
         }
-        else{
+        else
+        {
             high = mid - 1;
         }
-        
     }
     cout << ans;
     return 0;
