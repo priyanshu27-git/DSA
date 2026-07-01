@@ -32,7 +32,7 @@ int main()
 
     while (low <= high)
     {
-        int mid = (low + high) / 2;
+        int mid = (low + high) / 2;// finding mid
 
         if (a[mid] > a[mid + 1] && a[mid] > a[mid - 1])
         {
