@@ -25,7 +25,8 @@ int main()
         else{
             high = mid - 1;
         }
-        cout << mid << endl;
+        
     }
+    cout << ans;
     return 0;
 }
