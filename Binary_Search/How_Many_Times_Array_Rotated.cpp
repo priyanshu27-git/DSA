@@ -10,7 +10,6 @@ int Rotated(int a[], int low, int high){
         if(a[mid] > a[high]){
             low = mid + 1;
         }
-
         else{
             high = mid; 
         }
