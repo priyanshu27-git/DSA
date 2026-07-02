@@ -26,7 +26,7 @@ int main()
     {
         cin >> a[i];
     }
-
+        
     int ans = Rotated(a , 0 , n - 1);
 
     cout << ans;
