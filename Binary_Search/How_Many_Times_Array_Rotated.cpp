@@ -12,7 +12,7 @@ int Rotated(int a[], int low, int high){
         }
 
         else{
-            high = mid;
+            high = mid; 
         }
     }
     return low;
