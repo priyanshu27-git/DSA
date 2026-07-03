@@ -11,7 +11,7 @@ int smallest_divisor(vector<int> a, int value)
     }
     return sum;
 }
-int main()
+int main()  
 {
     int n;
     cin >> n;
