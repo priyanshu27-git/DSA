@@ -23,6 +23,7 @@ int main()
     }
 
     int Threshold;
+    
     cin >> Threshold;
 
     int Maxi = a[0];
