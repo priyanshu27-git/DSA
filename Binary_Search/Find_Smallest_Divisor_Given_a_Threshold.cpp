@@ -5,6 +5,7 @@ using namespace std;
 int smallest_divisor(vector<int> a, int value)
 {
     int sum = 0;
+    
     for (int i = 0; i < a.size(); i++)
     {
         sum += (a[i] + value - 1) / value;
@@ -23,7 +24,6 @@ int main()
     }
 
     int Threshold;
-    
     cin >> Threshold;
 
     int Maxi = a[0];
@@ -52,7 +52,7 @@ int main()
             low = mid + 1;
         }
     }
-
+ 
     cout << low;
 
     return 0;
