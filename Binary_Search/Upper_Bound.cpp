@@ -12,7 +12,8 @@ int UpperBound(int a[] , int n , int Target, int low , int high){
         if(a[mid] > Target){
             ans = mid;
             high = mid - 1;
-        } 
+        }  
+        
         else{
             low = mid + 1;
         }
