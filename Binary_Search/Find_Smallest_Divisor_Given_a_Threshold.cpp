@@ -52,7 +52,6 @@ int main()
             low = mid + 1;
         }
     }    
- 
     cout << low;
 
     return 0;
