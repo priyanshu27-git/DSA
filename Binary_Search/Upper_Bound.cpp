@@ -13,7 +13,7 @@ int UpperBound(int a[] , int n , int Target, int low , int high){
             ans = mid;
             high = mid - 1;
         }  
-        
+
         else{
             low = mid + 1;
         }
@@ -41,6 +41,7 @@ int UpperBound(int a[] , int n , int Target, int low , int high){
     // }
     // return n;
 }
+
 int main() {
     int n;
     cin >> n;
