@@ -8,11 +8,11 @@ int UpperBound(int a[] , int n , int Target, int low , int high){
     while (low <= high)
     {
         int mid = (low + high) / 2;
-
+ 
         if(a[mid] > Target){
             ans = mid;
             high = mid - 1;
-        }
+        } 
         else{
             low = mid + 1;
         }
