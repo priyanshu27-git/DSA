@@ -13,6 +13,7 @@ int BinarySearch(int a[] , int Target, int low , int high){
         if(a[mid] < Target){
             low = mid + 1;
         }
+        
         else{
             high = mid - 1;
         }
