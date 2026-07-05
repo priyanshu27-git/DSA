@@ -10,7 +10,7 @@ bool Search(int a[], int low, int high, int Target){
         if(a[mid] == Target){
             return true;
         }
-
+   
         if(a[low] == a[mid] && a[mid] == a[high]){
             low++;
             high--;
