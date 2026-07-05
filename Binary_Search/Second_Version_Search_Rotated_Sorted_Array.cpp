@@ -35,7 +35,7 @@ bool Search(int a[], int low, int high, int Target){
         }
     }
     return false;
-}    
+}         
 
 int main()
 {
