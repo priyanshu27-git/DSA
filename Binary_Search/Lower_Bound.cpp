@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
-
-int LowerBound(int a[] , int n , int Target, int low , int high){
+// Lower bound means minimum greatest or equal to target number
+int LowerBound(int a[], int n, int Target, int low, int high)
+{
 
     int ans = n;
 
@@ -9,17 +10,36 @@ int LowerBound(int a[] , int n , int Target, int low , int high){
     {
         int mid = (low + high) / 2;
 
-        if(a[mid] >= Target){
+        if (a[mid] >= Target)
+        {
             ans = mid;
             high = mid - 1;
         }
-        
-        else{
+
+        else
+        {
             low = mid + 1;
-        }   
+        }
     }
     return ans;
+}
+    int main()
+    {
+        int n;
+        cin >> n;
+        int a[n];
+        for (int i = 0; i < n; i++)
+        {
+            cin >> a[i];
+        }
+        int Target;
+        cin >> Target;
 
+        int ans = LowerBound(a, n, Target, 0, n - 1);
+
+        cout << ans;
+        return 0;
+    }
 
     // while (low <= high)
     // {
@@ -40,20 +60,4 @@ int LowerBound(int a[] , int n , int Target, int low , int high){
     //     }
     // }
     // return n;
-}
-int main() {
-    int n;
-    cin >> n;
-    int a[n];
-    for (int i = 0; i < n; i++)
-    {
-        cin >> a[i];
-    }
-    int Target;
-    cin >> Target;
-
-    int ans = LowerBound(a, n , Target , 0 , n - 1);
-
-    cout << ans;
-    return 0;
-}
+// }
