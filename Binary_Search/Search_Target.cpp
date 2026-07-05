@@ -33,12 +33,13 @@ int main()
     {
         cin >> a[i];
     }
-    
+
     int Target;
     cin >> Target;
 
     int ans = BinarySearch(a, Target, 0, n - 1);
 
     cout << ans;
+    
     return 0;
 }
