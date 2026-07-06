@@ -7,7 +7,7 @@ using namespace std;
         int Max = a[0];
         for(int i = 0; i < a.size(); i++){
             Max = max(Max , a[i]);
-        }
+        }    
         return Max;
     }
 
