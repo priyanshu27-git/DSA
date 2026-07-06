@@ -12,7 +12,7 @@ int main()
     }
 
     int k;
-    cin >> k;
+    cin >> k;    
 
     // Binary Search approach(O(logn))
     int low = 0, high = n - 1;
