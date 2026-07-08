@@ -44,7 +44,6 @@ int main()
 
     long long sum = 0;
     int Maxi = a[0];
-    
     for (int i = 0; i < n; i++)
     {
         sum += a[i];
