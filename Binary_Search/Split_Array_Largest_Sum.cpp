@@ -5,7 +5,7 @@ using namespace std;
 int Minimized_Sum(int a[], long long barrier, int m , int n)
 {
     long long count_subarray = 1 , sum = 0;
-    
+
     for (int i = 0; i < n; i++)
     {
         if(sum + a[i] <= barrier){
@@ -25,6 +25,7 @@ int main()
     int n;
     cin >> n;
     int a[n];
+    
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
