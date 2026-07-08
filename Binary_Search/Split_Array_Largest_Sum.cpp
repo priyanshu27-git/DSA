@@ -2,21 +2,23 @@
 #include <algorithm>
 using namespace std;
 
-int Minimized_Sum(int a[], long long barrier, int m , int n)
+int Minimized_Sum(int a[], long long barrier, int m, int n)
 {
-    long long count_subarray = 1 , sum = 0;
+    long long count_subarray = 1, sum = 0;
 
     for (int i = 0; i < n; i++)
     {
-        if(sum + a[i] <= barrier){
+        if (sum + a[i] <= barrier)
+        {
             sum += a[i];
         }
-        else{
+        else
+        {
             sum = a[i];
             count_subarray += 1;
         }
     }
-    
+
     return count_subarray;
 }
 
@@ -25,7 +27,7 @@ int main()
     int n;
     cin >> n;
     int a[n];
-    
+
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
@@ -34,7 +36,8 @@ int main()
     int m;
     cin >> m;
 
-    if(m > n) {
+    if (m > n)
+    {
         cout << -1;
         return 0;
     }
@@ -44,9 +47,8 @@ int main()
     for (int i = 0; i < n; i++)
     {
         sum += a[i];
-        Maxi = max(Maxi , a[i]);
+        Maxi = max(Maxi, a[i]);
     }
-    
 
     long long low = Maxi, high = sum;
 
@@ -54,7 +56,7 @@ int main()
     {
         long long mid = (low + high) / 2;
 
-        int check_Subarrays = Minimized_Sum(a, mid, m , n);
+        int check_Subarrays = Minimized_Sum(a, mid, m, n);
 
         if (check_Subarrays < m)
         {
