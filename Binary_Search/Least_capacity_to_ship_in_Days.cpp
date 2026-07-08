@@ -17,6 +17,7 @@ int Minimum_days(vector<int> a, int capacity)
     }
     return days;
 }
+
 int main()
 {
     int n;
