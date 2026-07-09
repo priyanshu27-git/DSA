@@ -8,7 +8,7 @@ int Floor(int a[], int low, int high, int Target, int n){
 		int mid = (low + high) / 2;
 			
 		if (a[mid] > Target) {
-			high = mid - 1;
+			high = mid - 1;   
 		}
 		else {
 			ans = mid;
