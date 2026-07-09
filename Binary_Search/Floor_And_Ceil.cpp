@@ -3,7 +3,6 @@ using namespace std;
 
 int Floor(int a[], int low, int high, int Target, int n)
 {
-
 	int ans = -1;
 	while (low <= high)
 	{
@@ -21,7 +20,6 @@ int Floor(int a[], int low, int high, int Target, int n)
 	}
 	return ans;
 }
-
 int Ceil(int a[], int low, int high, int Target, int n)
 {
 
