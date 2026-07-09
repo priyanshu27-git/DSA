@@ -48,12 +48,15 @@ int main()
 	{
 		cin >> a[i];
 	}
+
 	int Target;
+	
 	cin >> Target;
 
 	int floor, ceil;
 
 	floor = Floor(a, 0, n - 1, Target, n);
+
 	ceil = Ceil(a, 0, n - 1, Target, n);
 
 	cout << floor << " " << ceil;
