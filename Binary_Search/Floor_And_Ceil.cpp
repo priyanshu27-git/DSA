@@ -20,6 +20,7 @@ int Floor(int a[], int low, int high, int Target, int n)
 	}
 	return ans;
 }
+
 int Ceil(int a[], int low, int high, int Target, int n)
 {
 	int ans = -1;
@@ -39,6 +40,7 @@ int Ceil(int a[], int low, int high, int Target, int n)
 	}
 	return ans;
 }
+
 int main()
 {
 	int n;
@@ -50,7 +52,7 @@ int main()
 	}
 
 	int Target;
-	
+
 	cin >> Target;
 
 	int floor, ceil;
