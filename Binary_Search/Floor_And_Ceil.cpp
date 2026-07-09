@@ -39,7 +39,6 @@ int Ceil(int a[], int low, int high, int Target, int n)
 	}
 	return ans;
 }
-
 int main()
 {
 	int n;
