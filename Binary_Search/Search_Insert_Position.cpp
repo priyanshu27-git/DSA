@@ -13,7 +13,7 @@ int Search_Position(int a[], int low, int high, int Target, int n)
         {
             ans = mid;
             high = mid - 1;
-        }  
+        }
         else
         {
             low = mid + 1;
