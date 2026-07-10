@@ -21,7 +21,6 @@ int Search_Position(int a[], int low, int high, int Target, int n)
     }
     return ans;
 }
-
 int main()
 {
     int n;
@@ -31,6 +30,7 @@ int main()
     {
         cin >> a[i];
     }
+    
     int Target;
     cin >> Target;
 
