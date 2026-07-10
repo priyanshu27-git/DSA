@@ -30,8 +30,9 @@ int main()
     {
         cin >> a[i];
     }
-    
+
     int Target;
+    
     cin >> Target;
 
     int ans = Search_Position(a, 0, n - 1, Target, n);
