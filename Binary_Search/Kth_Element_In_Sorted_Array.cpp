@@ -5,6 +5,7 @@ int main()
 {
     int n1, n2;
     cin >> n1 >> n2;
+    
     int a1[n1], a2[n2];
 
     for (int i = 0; i < n1; i++) // taking input in array 1
