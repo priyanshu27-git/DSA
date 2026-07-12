@@ -36,7 +36,7 @@ int Search(int a[], int low, int high, int Target)
             }
         }
     }
-    
+
     return -1;
 }
 
@@ -45,6 +45,7 @@ int main()
     int n;
     cin >> n;
     int a[n];
+    
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
