@@ -5,6 +5,7 @@ using namespace std;
 int count_Gas_Stations(int a[], long double dist, int n)
 {
     int count = 0;
+    
     for (int i = 1; i < n; i++)
     {
         int Partition = ((a[i] - a[i - 1]) / dist);
@@ -14,6 +15,7 @@ int count_Gas_Stations(int a[], long double dist, int n)
         }
         count += Partition;
     }
+
     return count;
 }
 
