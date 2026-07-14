@@ -13,7 +13,7 @@ int  count_Gas_Stations(int a[], long double dist, int n)
         }
         count += Partition;
    }
-   return count;
+   return count;   
 }
 
 int main()
