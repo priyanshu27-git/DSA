@@ -24,7 +24,7 @@ int main()
     int n;
     cin >> n;
     int a[n];
-    
+
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
@@ -42,6 +42,7 @@ int main()
     }
 
     long double diff = 1e-6;
+    
     while (high - low >= diff)
     {
         long double mid = (low + high) / (2.0);
