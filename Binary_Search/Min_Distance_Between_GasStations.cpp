@@ -2,18 +2,19 @@
 #include <algorithm>
 using namespace std;
 
-int  count_Gas_Stations(int a[], long double dist, int n)
+int count_Gas_Stations(int a[], long double dist, int n)
 {
-   int count = 0;
-   for (int i = 1; i < n; i++)
-   {
-        int Partition = ((a[i] - a[i-1]) / dist);
-        if(((a[i] - a[i-1]) / dist) == Partition * dist){
+    int count = 0;
+    for (int i = 1; i < n; i++)
+    {
+        int Partition = ((a[i] - a[i - 1]) / dist);
+        if (((a[i] - a[i - 1]) / dist) == Partition * dist)
+        {
             Partition--;
         }
         count += Partition;
-   }
-   return count;   
+    }
+    return count;
 }
 
 int main()
@@ -29,15 +30,14 @@ int main()
     int k;
     cin >> k;
 
-
     long double low = 0;
     long double high = 0;
 
     for (int i = 0; i < n - 1; i++)
     {
-        high = max(high , (long double) (a[i+1] - a[i]));
+        high = max(high, (long double)(a[i + 1] - a[i]));
     }
-    
+
     long double diff = 1e-6;
     while (high - low >= diff)
     {
