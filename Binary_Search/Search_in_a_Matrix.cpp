@@ -34,7 +34,7 @@ int main() {
 
         if(a[row][col] > Target){
             high = mid - 1;
-        }
+        }   
         else{
             low = mid + 1;
         }
