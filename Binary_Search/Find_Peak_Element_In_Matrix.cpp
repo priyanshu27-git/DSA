@@ -22,7 +22,7 @@ int main()
     int n, m;
     cin >> n >> m;
     vector<vector<int>> a(n, vector<int>(m));
-    
+
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < m; j++)
@@ -59,6 +59,7 @@ int main()
                 high = mid - 1;
             }
         }
+        
         cout << -1 << " " << -1; // Peak Element not found
 
         return 0;
