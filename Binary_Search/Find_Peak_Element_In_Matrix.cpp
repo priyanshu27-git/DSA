@@ -15,7 +15,7 @@ int max_element(vector<vector<int>> &a, int n, int m, int col)
             index = i;
         }
     }
-    
+
     return index;
 }
 
@@ -23,6 +23,7 @@ int main()
 {
     int n, m;
     cin >> n >> m;
+    
     vector<vector<int>> a(n, vector<int>(m));
 
     for (int i = 0; i < n; i++)
