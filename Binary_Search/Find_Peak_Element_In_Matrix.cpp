@@ -6,6 +6,7 @@ int max_element(vector<vector<int>> &a, int n, int m, int col)
 {
     int maxi = -1;
     int index = -1;
+
     for (int i = 0; i < n; i++)
     {
         if (a[i][col] > maxi)
@@ -14,6 +15,7 @@ int max_element(vector<vector<int>> &a, int n, int m, int col)
             index = i;
         }
     }
+    
     return index;
 }
 
@@ -59,7 +61,7 @@ int main()
                 high = mid - 1;
             }
         }
-        
+
         cout << -1 << " " << -1; // Peak Element not found
 
         return 0;
