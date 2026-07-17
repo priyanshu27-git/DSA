@@ -9,7 +9,7 @@ bool max_difference(int a[], int dist, int n, int cows)
     for (int i = 1; i < n; i++)
     {
         if (a[i] - last >= dist)
-        {
+        {   
             count_cows++;
             last = a[i];
         }
