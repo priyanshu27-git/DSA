@@ -9,7 +9,7 @@ bool max_difference(int a[], int dist, int n, int cows)
     for (int i = 1; i < n; i++)
     {
         if (a[i] - last >= dist)
-        {   
+        {
             count_cows++;
             last = a[i];
         }
@@ -25,7 +25,7 @@ bool max_difference(int a[], int dist, int n, int cows)
 int main()
 {
     int n;
-    cin >> n;   
+    cin >> n;
     int a[n];
     for (int i = 0; i < n; i++)
     {
@@ -35,15 +35,15 @@ int main()
     int k;
     cin >> k;
 
-    sort(a , a + n);
+    sort(a, a + n);
 
-    int low = 0, high = a[n-1] - a[0];
+    int low = 0, high = a[n - 1] - a[0];
 
     while (low <= high)
     {
         int mid = (low + high) / 2;
 
-        bool check_max_difference = max_difference(a, mid, n , k);
+        bool check_max_difference = max_difference(a, mid, n, k);
 
         if (check_max_difference)
         {
