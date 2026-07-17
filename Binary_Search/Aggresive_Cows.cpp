@@ -19,6 +19,7 @@ bool max_difference(int a[], int dist, int n, int cows)
             return true;
         }
     }
+    
     return false;
 }
 
