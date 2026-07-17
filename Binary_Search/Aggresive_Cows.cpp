@@ -25,7 +25,7 @@ bool max_difference(int a[], int dist, int n, int cows)
 int main()
 {
     int n;
-    cin >> n;
+    cin >> n;   
     int a[n];
     for (int i = 0; i < n; i++)
     {
