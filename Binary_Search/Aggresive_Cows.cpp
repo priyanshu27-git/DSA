@@ -27,6 +27,7 @@ int main()
 {
     int n;
     cin >> n;
+    
     int a[n];
 
     for (int i = 0; i < n; i++)
@@ -35,7 +36,7 @@ int main()
     }
 
     int k;
-    
+
     cin >> k;
 
     sort(a, a + n);
@@ -59,6 +60,5 @@ int main()
     }
 
     cout << high;
-
     return 0;
 }
