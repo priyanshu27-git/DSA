@@ -15,7 +15,7 @@ int count_students(int a[], long long barrier, int m , int n)
             allocated_students += 1;
         }
     }
-    
+     
     return allocated_students;
 }
 
