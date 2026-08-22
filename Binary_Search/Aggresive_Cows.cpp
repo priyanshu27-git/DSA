@@ -27,7 +27,7 @@ int main()
 {
     int n;
     cin >> n;
-    
+
     int a[n];
 
     for (int i = 0; i < n; i++)
@@ -62,3 +62,15 @@ int main()
     cout << high;
     return 0;
 }
+
+      long long ans = s;
+
+        if (n % 2 == 0) {
+            long long total_pairs = n / 2;
+            ans = ans + (total_pairs * m) - ((total_pairs - 1) * 1);
+        } 
+        else {
+            long long total_pairs = (n - 1) / 2;
+            ans = ans + (total_pairs * m) - ((total_pairs - 1) * 1);
+        }
+    }
