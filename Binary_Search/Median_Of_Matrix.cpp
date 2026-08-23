@@ -57,6 +57,7 @@ int main()
     }
 
     int req = (n * m) / 2;
+    
     while (low <= high)
     {
         int mid = (low + high) / 2;
