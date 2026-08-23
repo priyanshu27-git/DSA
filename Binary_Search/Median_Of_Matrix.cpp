@@ -26,7 +26,7 @@ int count_smaller_than_mid(vector<vector<int>> &a , int n , int m , int x){
    
     int count = 0;
  
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)   
     {
         count += UpperBound(a[i] , m , x , 0 , m - 1); 
     }
