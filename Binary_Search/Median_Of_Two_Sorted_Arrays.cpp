@@ -20,6 +20,7 @@ int main()
     int low = 0, high = n1; // BINARY SEARCH ALGO
 
     int left = (n1 + n2 + 1) / 2;
+    
     int n = n1 + n2;
 
     while (low <= high)
