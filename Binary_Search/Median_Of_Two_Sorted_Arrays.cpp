@@ -8,7 +8,7 @@ int main() {
 
     for (int i = 0; i < n1; i++)// taking input in array 1
     {
-        cin >> a1[i];
+        cin >> a1[i]; 
     }
 
     for (int i = 0; i < n2; i++)// taking input in array 2
