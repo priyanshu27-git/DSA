@@ -27,8 +27,9 @@ int LowerBound(int a[], int n, int Target, int low, int high)
     int main()
     {
         int n , m;
-        cin >> n  >> m;
         
+        cin >> n  >> m;
+
         int a[n][m];
 
         for (int i = 0; i < n; i++)
