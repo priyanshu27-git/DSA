@@ -21,6 +21,7 @@ int LowerBound(int a[], int n, int Target, int low, int high)
             low = mid + 1;
         }
     }
+    
     return ans;
 }
     int main()
