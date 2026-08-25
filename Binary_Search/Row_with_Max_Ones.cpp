@@ -27,7 +27,7 @@ int LowerBound(int a[], int n, int Target, int low, int high)
     int main()
     {
         int n , m;
-        
+
         cin >> n  >> m;
 
         int a[n][m];
@@ -42,6 +42,7 @@ int LowerBound(int a[], int n, int Target, int low, int high)
         
         int max_count = 0;
         int index = -1;
+        
         for (int i = 0; i < n; i++)
         {
             int count_ones = m - LowerBound(a[i] , m , 1 , 0 , n - 1);
