@@ -8,10 +8,10 @@ void solve()
     int k;
     cin >> k;
 
-    vector<long long> c(k);  
+    vector<long long> c(k);
 
     bool has_three = false;
- 
+
     int count_two = 0;
 
     for (int i = 0; i < k; i++)
@@ -35,7 +35,6 @@ void solve()
     {
         cout << "NO\n";
     }
-
 }
 int main()
 {
@@ -51,5 +50,4 @@ int main()
         }
         return 0;
     }
-    
 }
