@@ -8,7 +8,7 @@ void solve()
     int k;
     cin >> k;
 
-    vector<long long> c(k);
+    vector<long long> c(k);  
     bool has_three = false;
     int count_two = 0;
 
