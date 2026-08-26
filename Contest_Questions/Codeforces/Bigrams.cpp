@@ -35,6 +35,7 @@ void solve()
     {
         cout << "NO\n";
     }
+    
 }
 int main()
 {
