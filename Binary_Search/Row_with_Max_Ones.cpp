@@ -2,6 +2,7 @@
 using namespace std;
 
 // Lower bound means minimum greatest or equal to target number
+
 int LowerBound(int a[], int n, int Target, int low, int high)
 {
     int ans = n;
