@@ -6,7 +6,7 @@ using namespace std;
 void solve()
 {
     int k;
-    
+
     cin >> k;
 
     vector<long long> c(k);
@@ -17,7 +17,9 @@ void solve()
 
     for (int i = 0; i < k; i++)
     {
+        
         cin >> c[i];
+
         if (c[i] >= 3)
         {
             has_three = true;
