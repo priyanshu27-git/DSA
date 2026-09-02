@@ -18,7 +18,7 @@ void solve() {
         current_len++;
         if (i == n - 1 || a[i] != a[i + 1]) {
             runs.push_back({a[i], current_len});
-            current_len = 0;
+            current_len = 0;    
         }
     }
 
