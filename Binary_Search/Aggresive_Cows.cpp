@@ -63,14 +63,14 @@ int main()
     return 0;
 }
 
-      long long ans = s;
+    //   long long ans = s;
 
-        if (n % 2 == 0) {
-            long long total_pairs = n / 2;
-            ans = ans + (total_pairs * m) - ((total_pairs - 1) * 1);
-        } 
-        else {
-            long long total_pairs = (n - 1) / 2;
-            ans = ans + (total_pairs * m) - ((total_pairs - 1) * 1);
-        }
-    }
+    //     if (n % 2 == 0) {
+    //         long long total_pairs = n / 2;
+    //         ans = ans + (total_pairs * m) - ((total_pairs - 1) * 1);
+    //     } 
+    //     else {
+    //         long long total_pairs = (n - 1) / 2;
+    //         ans = ans + (total_pairs * m) - ((total_pairs - 1) * 1);
+    //     }
+    // }
