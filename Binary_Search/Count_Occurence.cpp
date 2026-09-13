@@ -40,7 +40,7 @@ int first(int a[], int low, int high, int Target, int n){
 }
 
 
-int main()
+int main()   
 {
     int n;
     cin >> n;
