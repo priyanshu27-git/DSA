@@ -104,7 +104,7 @@ int main()
                 break;
             }
             Bessie(a);
-            if(a.size() == 1 && a[0] == 0){
+            if(a.size() == 1 && a[0] == 0){   
                 cout << "Elsie\n";
                 break;
             }
