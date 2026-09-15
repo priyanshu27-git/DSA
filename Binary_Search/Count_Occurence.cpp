@@ -3,7 +3,7 @@ using namespace std;
 
 int last(int a[], int low, int high, int Target, int n){
 
-    int ans = -1;
+    int ans = -1;   
 	while (low <= high){
 		int mid = (low + high) / 2;
 			
