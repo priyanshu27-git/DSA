@@ -5,7 +5,7 @@ int Min(int a[], int low, int high){
 
     while (low < high)
     {
-        int mid = (low + high) / 2;
+        int mid = (low + high) / 2;   
 
         if(a[mid] > a[high]){
             low = mid + 1;
